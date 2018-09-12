@@ -6,6 +6,7 @@ p{
   text-align:center;
   font-size: 30px;
   font-family:"Comic Sans MS", cursive, sans-serif;
+  border: 2px solid black;
 }
 a:link, a:visited{
   text-align:center;
