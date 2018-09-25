@@ -1,6 +1,23 @@
-h1{
+body{
+  background-color:#F3EDED;
+}
+.header{
+  background-color: black;
   text-align: center;
   font-family: sans-serif;
+  padding:20px;
+
+}
+h1{
+  color:white;
+  font-family: sans-serif;
+}
+h2{
+  background-color:white;
+  text-align: center;
+  font-family: sans-serif;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 img {
     max-width: 1500px;
@@ -12,6 +29,7 @@ p{
   font-family: sans-serif;
 }
 a:link, a:visited{
+  position: static;
   font-family: sans-serif;
   background-color: lightseagreen;
   color: white;
@@ -20,6 +38,7 @@ a:link, a:visited{
   display: inline-block;
 }
 a:hover, a:active{
+  position: static;
   font-family: sans-serif;
   text-align:center;
   background-color: yellow;
