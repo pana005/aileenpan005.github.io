@@ -3,14 +3,25 @@ body{
 }
 .header{
   background-color: black;
-  text-align: center;
-  font-family: sans-serif;
-  padding:20px;
+  padding: 25px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#center-column{
+  height:1500px;
+  background-color:white;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 15px;
+
+}
+.column{
 
 }
 h1{
   color:white;
   font-family: sans-serif;
+  text-align: center;
 }
 h2{
   background-color:white;
@@ -20,8 +31,8 @@ h2{
   margin-right: 200px;
 }
 img {
-    max-width: 1500px;
-    max-height: 1500px;
+    max-width: 1000px;
+    max-height: 1000px;
 }
 p{
   text-align: center;
@@ -43,4 +54,11 @@ a:hover, a:active{
   text-align:center;
   background-color: yellow;
   color: black;
+}
+#footer{
+
+  background-color: black;
+  margin-right:20%;
+  margin-left:20%;
+
 }
