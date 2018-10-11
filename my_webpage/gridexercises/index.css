@@ -16,7 +16,12 @@ h1{
 .turquoise {
     background-color: turquoise;
 }
-
+.yellow{
+    background-color: yellow;
+}
+.red{
+  background-color:red;
+}
 br {
     clear: both;
 }
