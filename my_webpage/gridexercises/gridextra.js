@@ -9,9 +9,6 @@ for (var i = 0; i < 10; i++) {
         }else if(i > 6){
             console.log("yellow");
             document.write("<div class='box yellow'></div>");
-        }else if(i = 3){
-            console.log("red");
-            document.write("<div class='box red'></div>");
         }else {
             console.log("turquoise");
             document.write("<div class='box turquoise'></div>");
