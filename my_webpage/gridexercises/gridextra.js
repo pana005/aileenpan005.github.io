@@ -9,6 +9,15 @@ for (var i = 0; i < 10; i++) {
         }else if(i > 6){
             console.log("yellow");
             document.write("<div class='box yellow'></div>");
+        }else if(j < 1){
+            console.log("red");
+            document.write("<div class='box red'></div>");
+        }else if(j > 8){
+                console.log("red");
+                document.write("<div class='box red'></div>");
+        }else if(j == i){
+            console.log("red");
+            document.write("<div class='box red'></div>");
         }else {
             console.log("turquoise");
             document.write("<div class='box turquoise'></div>");

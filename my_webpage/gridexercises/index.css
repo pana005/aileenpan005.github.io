@@ -20,7 +20,10 @@ h1{
     background-color: yellow;
 }
 .red{
-  background-color:red;
+    background-color: red;
+}
+.avocado{
+    content:"❤️";
 }
 br {
     clear: both;
