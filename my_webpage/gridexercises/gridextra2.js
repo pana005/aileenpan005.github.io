@@ -5,8 +5,8 @@ for (var i = 0; i < 10; i++) {
 
         // The next line is the only JS you'll have to change.
         if (i == j) {
-            console.log('0x1F4A9');
-            document.write("<div class='box avocado'></div>");
+            console.log("hamburger");
+            document.write("<div class='box hamburger'></div>");
         }else {
             console.log("turquoise");
             document.write("<div class='box turquoise'></div>");
