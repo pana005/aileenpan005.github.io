@@ -43,17 +43,17 @@ function updateTime(){
   }
 //Minute
   if(min%2 != 0){
-    r3all[0].style.backgroundColor = "green";
+    r3all[0].style.backgroundColor = "lightGreen";
     r3all[1].style.backgroundColor= "pink";
-    r3all[2].style.backgroundColor = "green";
+    r3all[2].style.backgroundColor = "lightGreen";
     r3all[3].style.backgroundColor= "pink";
-    r3all[4].style.backgroundColor = "green";
+    r3all[4].style.backgroundColor = "lightgreen";
     r3all[5].style.backgroundColor= "pink";
-    r3all[6].style.backgroundColor = "green";
+    r3all[6].style.backgroundColor = "lightGreen";
     r3all[7].style.backgroundColor= "pink";
-    r3all[8].style.backgroundColor = "green";
+    r3all[8].style.backgroundColor = "lightGreen";
     r3all[9].style.backgroundColor= "pink";
-    r3all[10].style.backgroundColor = "green";
+    r3all[10].style.backgroundColor = "lightGreen";
     r3all[11].style.backgroundColor= "pink";
   }else{
     r3all[0].style.backgroundColor = "blue";
@@ -69,21 +69,37 @@ function updateTime(){
     r3all[10].style.backgroundColor = "blue";
     r3all[11].style.backgroundColor = "blue";
   }
-  if(min < 10){
+  if(min > 40){
     r2all[0].style.backgroundColor= "grey";
     r2all[8].style.backgroundColor= "grey";
-  }else if(min > 10){
+  }
+  if(min > 10){
     r2all[1].style.backgroundColor= "red";
-  }else if(min > 20){
+  }
+  if(min > 20){
     r2all[2].style.backgroundColor= "orange";
     r2all[3].style.backgroundColor= "orange";
-  }else if(min > 30){
+  }
+  if(min > 30){
     r2all[4].style.backgroundColor= "yellow";
-  }else if(min > 40){
+  }
+  if(min > 40){
     r2all[5].style.backgroundColor= "green";
     r2all[6].style.backgroundColor= "green";
-  }else if(min > 50){
+  }
+  if(min > 50){
     r2all[7].style.backgroundColor= "purple";
+  }
+  if(min<10){
+    r2all[0].style.backgroundColor= "black";
+    r2all[1].style.backgroundColor= "black";
+    r2all[2].style.backgroundColor= "black";
+    r2all[3].style.backgroundColor= "black";
+    r2all[4].style.backgroundColor= "black";
+    r2all[5].style.backgroundColor= "black";
+    r2all[6].style.backgroundColor= "black";
+    r2all[7].style.backgroundColor= "black";
+    r2all[8].style.backgroundColor= "black";
   }
 
 
