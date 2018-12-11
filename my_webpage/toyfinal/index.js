@@ -49,7 +49,7 @@ function gameOver(){
   var answer = confirm("Oops That wasn't Nemo! Restart?")
 	if (answer){
 		alert("Bye bye!")
-		window.location = "https://aileenpan005.github.io/my_webpage/toyfinal/index.html";
+		window.location = "https://aileenpan005.github.io/my_webpage/toyfinal/start.html";
 	}
 	else{
 		alert("Thanks for sticking around!")
