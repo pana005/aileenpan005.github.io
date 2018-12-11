@@ -7,7 +7,6 @@ var turtle2 = document.querySelector("#turtle2");
 var turtleSmall = document.querySelector("#turtleSmall");
 var turtleSmall2 = document.querySelector("#turtleSmall2");
 var shark = document.querySelector("#shark");
-nemo.addEventListener("click", play);
 dory.addEventListener("click", gameOver);
 dory2.addEventListener("click", gameOver);
 pearl.addEventListener("click", gameOver);
@@ -17,6 +16,11 @@ turtleSmall.addEventListener("click", gameOver);
 turtleSmall2.addEventListener("click", gameOver);
 shark.addEventListener("click", gameOver);
 
+nemo.onclick = function score(){
+  var score = parseInt(document.getElementById("clicks").innerHTML);
+    score++;
+    document.getElementById("clicks").innerHTML = score;
+  }
 //-- main--//
 function play(){
   update();
@@ -35,13 +39,8 @@ setInterval(update, 1000);
 //--end--//
 
 //scoring and ends//
-function score(){
-  var score;
-  if(nemo.onclick == true){
-    score++;
-    return score;
-  }
-}
+
+
 
 function gameOver(){
   var answer = confirm("Oops That wasn't Nemo! Restart?")

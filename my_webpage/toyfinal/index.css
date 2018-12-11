@@ -25,6 +25,17 @@ a:hover, a:active{
   background-color: yellow;
   color: black;
 }
+#score{
+  float: left;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: white;
+  margin-top: 720px;
+  margin-left: 15px;
+  padding: 14px 25px;
+  background-color: #00ADEF;
+  border-radius: 30%;
+}
 #logo2{
   display: block;
   margin-left: auto;
@@ -39,8 +50,7 @@ a:hover, a:active{
   float: left;
   padding-left: 5px;
   padding-top: 670px;
-  left: 0px;
-  bottom: 0px;
+
 
 }
 #nemo{
