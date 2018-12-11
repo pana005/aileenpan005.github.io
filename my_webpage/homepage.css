@@ -39,6 +39,7 @@ p{
   text-align: center;
   font-size:20px;
   font-family: sans-serif;
+  border-radius: 50%;
 }
 a:link, a:visited{
   position: static;
@@ -48,6 +49,7 @@ a:link, a:visited{
   padding: 14px 25px;
   text-decoration: none;
   display: inline-block;
+  border-radius: 50%;
 }
 a:hover, a:active{
   position: static;
@@ -55,6 +57,7 @@ a:hover, a:active{
   text-align:center;
   background-color: yellow;
   color: black;
+  border-radius: 50%;
 }
 #footer{
 
