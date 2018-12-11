@@ -43,9 +43,9 @@ setInterval(update, 1000);
 
 
 function gameOver(){
-  var answer = confirm("Oops That wasn't Nemo! Restart?")
+  var answer = confirm("Oops That wasn't Nemo! Restart?");
 	if (answer){
-		alert("Bye bye!")
+		alert("Bye bye!");
 		window.location = "https://aileenpan005.github.io/my_webpage/toyfinal/start.html";
 	}
 
