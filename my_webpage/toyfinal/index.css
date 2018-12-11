@@ -79,6 +79,20 @@ a:hover, a:active{
   position: absolute;
 }
 #turtle2{
+  width:100px;
+  height:auto;
+  top:50%;
+  left:50%;
+  position: absolute;
+}
+#turtleSmall{
+  width:100px;
+  height:auto;
+  top:50%;
+  left:50%;
+  position: absolute;
+}
+#turtleSmall2{
   width:150px;
   height:auto;
   top:50%;

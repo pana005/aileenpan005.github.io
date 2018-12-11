@@ -4,6 +4,8 @@ var dory2 = document.querySelector("#dory2");
 var pearl = document.querySelector("#pearl");
 var turtle = document.querySelector("#turtle");
 var turtle2 = document.querySelector("#turtle2");
+var turtle = document.querySelector("#turtleSmall");
+var turtle2 = document.querySelector("#turtleSmall2");
 var shark = document.querySelector("#shark");
 nemo.addEventListener("click", play);
 dory.addEventListener("click", gameOver);
@@ -11,6 +13,8 @@ dory2.addEventListener("click", gameOver);
 pearl.addEventListener("click", gameOver);
 turtle.addEventListener("click", gameOver);
 turtle2.addEventListener("click", gameOver);
+turtleSmall.addEventListener("click", gameOver);
+turtleSmall2.addEventListener("click", gameOver);
 shark.addEventListener("click", gameOver);
 
 //-- main--//
@@ -24,13 +28,7 @@ function update(){
   var now = new Date; //time right now
   var sec = now.getSeconds();
   if(sec%2 == 0){
-    positionNemo();
-    positionDory();
-    positionDory2();
-    positionPearl();
-    positionTurtle();
-    positionTurtle2();
-    positionShark();
+    position();
   }
 }
 setInterval(update, 1000);
@@ -56,6 +54,17 @@ function gameOver(){
 //-- end --//
 
 //--items--//
+function position(){
+  positionNemo();
+  positionDory();
+  positionDory2();
+  positionPearl();
+  positionTurtle();
+  positionTurtle2();
+  positionTurtleSmall();
+  positionTurtleSmall2();
+  positionShark();
+}
 function positionNemo(){
   var el = nemo.getBoundingClientRect();
   var y = el.top
@@ -183,5 +192,37 @@ function positionTurtle2(){
   turtle2.style.left= x+"px";
   turtle2.style.bottom= h+"px";
   turtle2.style.right= w+"px";
+}
+function positionTurtleSmall(){
+  var el = turtleSmall.getBoundingClientRect();
+  var y = el.top
+  var r = el.right
+  var h = el.bottom
+  var w = el.left
+  y = Math.random()*800;
+  x = Math.random()*1600;
+  w = el.right
+  h = el.bottom
+  console.log(x,y,w,h);
+  turtleSmall.style.top= y+"px";
+  turtleSmall.style.left= x+"px";
+  turtleSmall.style.bottom= h+"px";
+  turtleSmall.style.right= w+"px";
+}
+function positionTurtleSmall2(){
+  var el = turtleSmall2.getBoundingClientRect();
+  var y = el.top
+  var r = el.right
+  var h = el.bottom
+  var w = el.left
+  y = Math.random()*800;
+  x = Math.random()*1600;
+  w = el.right
+  h = el.bottom
+  console.log(x,y,w,h);
+  turtleSmall2.style.top= y+"px";
+  turtleSmall2.style.left= x+"px";
+  turtleSmall2.style.bottom= h+"px";
+  turtleSmall2.style.right= w+"px";
 }
 //--end of items--//
