@@ -51,9 +51,6 @@ function gameOver(){
 		alert("Bye bye!")
 		window.location = "https://aileenpan005.github.io/my_webpage/toyfinal/start.html";
 	}
-	else{
-		alert("Thanks for sticking around!")
-	}
 
 }
 //-- end --//
