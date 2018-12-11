@@ -1,0 +1,65 @@
+body {
+    background: white;
+    overflow:hidden;
+    background: url("finding-nemo-background.jpg") no-repeat fixed center;
+    background-size:cover;
+}
+#logo{
+  width:350px;
+  height:auto;
+  float: left;
+  padding-left: 5px;
+  padding-top: 670px;
+  left: 0px;
+  bottom: 0px;
+
+}
+#nemo{
+  width:100px;
+  height:auto;
+  top:50%;
+  left:50%;
+  position: absolute;
+}
+#dory{
+  width:150px;
+  height:auto;
+  top:50%;
+  left:50%;
+  position: absolute;
+}
+#dory2{
+  width:150px;
+  height:auto;
+  top:50%;
+  left:50%;
+  position: absolute;
+}
+#pearl{
+  width:80px;
+  height:auto;
+  top:50%;
+  left:50%;
+  position: absolute;
+}
+#turtle{
+  width:150px;
+  height:auto;
+  top:50%;
+  left:50%;
+  position: absolute;
+}
+#turtle2{
+  width:150px;
+  height:auto;
+  top:50%;
+  left:50%;
+  position: absolute;
+}
+#shark{
+  width:150px;
+  height:auto;
+  top:50%;
+  left:50%;
+  position: absolute;
+}
