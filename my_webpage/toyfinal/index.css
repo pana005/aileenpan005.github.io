@@ -4,6 +4,27 @@ body {
     background: url("finding-nemo-background.jpg") no-repeat fixed center;
     background-size:cover;
 }
+p{
+  text-align: center;
+  font-size:20px;
+  font-family: sans-serif;
+}
+a:link, a:visited{
+  position: static;
+  font-family: sans-serif;
+  background-color: lightseagreen;
+  color: white;
+  padding: 14px 25px;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active{
+  position: static;
+  font-family: sans-serif;
+  text-align:center;
+  background-color: yellow;
+  color: black;
+}
 #logo{
   width:350px;
   height:auto;
