@@ -47,7 +47,10 @@ function gameOver(){
 	if (answer){
 		alert("Bye bye!");
 		window.location = "https://aileenpan005.github.io/my_webpage/toyfinal/start.html";
-	}
+    return true;
+  }else{
+    return false;
+  }
 
 }
 //-- end --//

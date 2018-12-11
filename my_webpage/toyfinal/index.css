@@ -9,6 +9,7 @@ p{
   font-size:50px;
   font-family: sans-serif;
   padding-top: 50px;
+  border-radius: 60%;
 }
 a:link, a:visited{
   position: static;
@@ -18,12 +19,14 @@ a:link, a:visited{
   padding: 14px 25px;
   text-decoration: none;
   display: inline-block;
+  border-radius: 60%;
 }
 a:hover, a:active{
   position: static;
   font-family: sans-serif;
   background-color: yellow;
   color: black;
+  border-radius: 60%;
 }
 #score{
   float: left;
