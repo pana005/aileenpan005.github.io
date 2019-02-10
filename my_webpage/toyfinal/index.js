@@ -15,17 +15,12 @@ turtle2.addEventListener("click", gameOver);
 turtleSmall.addEventListener("click", gameOver);
 turtleSmall2.addEventListener("click", gameOver);
 shark.addEventListener("click", gameOver);
-
+//main
 nemo.onclick = function score(){
-  var score = parseInt(document.getElementById("clicks").innerHTML);
+    var score = parseInt(document.getElementById("clicks").innerHTML);
     score++;
     document.getElementById("clicks").innerHTML = score;
   }
-//-- main--//
-function play(){
-  update();
-}
-//--end of main--//
 
 //--update time--//
 function update(){
@@ -36,16 +31,13 @@ function update(){
   }
 }
 setInterval(update, 1000);
+
 //--end--//
-
-//scoring and ends//
-
-
-
 function gameOver(){
   var answer = confirm("Oops That wasn't Nemo! Restart?");
+
 	if (answer){
-		alert("Bye bye!");
+		confirm("Bye bye!");
 		window.location = "https://aileenpan005.github.io/my_webpage/toyfinal/start.html";
     return true;
   }else{
